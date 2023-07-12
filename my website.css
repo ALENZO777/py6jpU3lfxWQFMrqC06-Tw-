@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Chosence, "Avengers", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+/* Logo styles */
+.logo-container {
+  width: 250px; /* Adjust width as per your preference */
+  height: 300px; /* Adjust height as per your preference */
+  position: relative;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-banner {
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 60px; /* Adjust the top position as per your preference */
+  left: 0;
+  width: 100%;
+  height: 60px; /* Adjust the height as per your preference */
+}
+
+.logo-banner-text {
+  color: var(--accent-color);
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Navigation Menu styles */
+nav ul {
+  list-style: none;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  color: var(--accent-color);
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+
+/* Hamburger Menu Icon styles */
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin-bottom: 5px;
+  background-color: var(--accent-color);
+  transition: background-color 0.3s ease;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* Rest of your CSS code */
+
+@font-face {
+  font-family: 'Avengers';
+  src: url('/storage/emulated/0/〱MY WEBSITE/avengers font/AVENGEANCE HEROIC AVENGER.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Chosence';
+  src: url('/storage/emulated/0/〱MY WEBSITE/chosence font/Chosence Bold Italic.otf') format('opentype');
+}
+

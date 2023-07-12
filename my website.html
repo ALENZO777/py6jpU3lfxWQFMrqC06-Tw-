@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Gaming Showcase</title>
+  <link rel="stylesheet" href="my-website.css">
+  <style>
+    /* Add your custom styles here */
+    :root {
+      --primary-color: #FFFFFF; /* White */
+      --accent-color: #0867B0; /* Blue */
+    }
+
+    body {
+      background-color: var(--primary-color);
+      color: var(--accent-color);
+      font-family: Arial, sans-serif; /* Use appropriate font */
+    }
+
+    /* Additional custom styles go here */
+    @font-face {
+      font-family: 'Avengers';
+      src: url('/storage/emulated/0/〱MY WEBSITE/avengers font/AVENGEANCE HEROIC AVENGER.otf') format('opentype');
+    }
+
+    @font-face {
+      font-family: 'Chosence';
+      src: url('/storage/emulated/0/〱MY WEBSITE/chosence font/Chosence Bold Italic.otf') format('opentype');
+    }
+
+    .logo-container {
+      font-family: 'Avengers', sans-serif;
+      /* Rest of the logo styles */
+    }
+
+    .logo-banner-text {
+      font-family: 'Chosence', sans-serif;
+      /* Rest of the logo banner styles */
+    }
+
+    h1 {
+      font-family: 'Avengers', sans-serif;
+      /* Rest of the title styles */
+    }
+    
+    /* Custom styles for the Sharing Section */
+    .sharing-section {
+      /* Add your styles for the sharing section here */
+    }
+
+    .item-card {
+      /* Add your styles for each item card here */
+    }
+
+    /* Add more custom styles as needed */
+  </style>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#merchandise">Merchandise</a></li>
+      <li><a href="#discord">Discord Community</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Logo Section -->
+  <header id="home">
+    <img src="/storage/emulated/0/〱MY WEBSITE/20230508_023935.png" alt="Logo">
+    <h1>Welcome to My Gaming Showcase</h1>
+  </header>
+
+  <!-- Sharing Section -->
+  <section class="sharing-section">
+    <!-- Item 1 -->
+    <div class="item-card">
+      <!-- Add your HTML structure for each item card here -->
+      <!-- Include item image, description, price, and availability -->
+    </div>
+
+    <!-- Item 2 -->
+    <div class="item-card">
+      <!-- Add your HTML structure for each item card here -->
+      <!-- Include item image, description, price, and availability -->
+    </div>
+
+    <!-- Add more item cards as needed -->
+
+  </section>
+
+  <!-- JavaScript code -->
+  <script src="script.js"></script>
+  <script>
+    function toggleMenu() {
+      var menuIcon = document.querySelector('.menu-icon');
+      menuIcon.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
